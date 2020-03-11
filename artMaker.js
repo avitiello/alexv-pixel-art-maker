@@ -8,7 +8,6 @@ window.onload = function(){
     let colorChoices = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
     for(let color of colorChoices) {
         let palletBox = document.createElement('span')
-        palletBox.className = "pallet-box"
         palletBox.style.backgroundColor = color
         palletBox.style.height = '10px'
         palletBox.style.width = '10px'
