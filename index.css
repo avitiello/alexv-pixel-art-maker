@@ -1,0 +1,23 @@
+body {
+    background-color: cadetblue;
+}
+
+#pallet-container {
+    display: flex;
+    margin: 5px auto;
+
+}
+
+#canvas {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    margin: auto;
+    display: grid;
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+}
+
+h1 {
+    color: blue
+}
